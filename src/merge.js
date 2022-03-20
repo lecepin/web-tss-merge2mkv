@@ -133,6 +133,7 @@ export default class Merge extends React.Component {
   }
 
   componentDidMount() {
+    window.__merge2mkv = this;
     this.ffmpeg = createFFmpeg({
       log: true,
       logger: ({ type, message }) => {
