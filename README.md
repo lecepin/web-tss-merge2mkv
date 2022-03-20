@@ -2,7 +2,7 @@
 
 > 基于 ffmpeg.wasm 实现。
 
-效果同 [tss-merge-to-mkv](https://github.com/lecepin/tss-merge-to-mkv) 一样，但由于 WebAssambly 的限制，目前文件大小不能超过 2GB，速度方面和 PC 的差别也很大。
+效果同 [tss-merge-to-mkv](https://github.com/lecepin/tss-merge-to-mkv) 一样，但由于 WebAssambly 的限制，目前文件大小不能超过 2GB（未来可能会 4GB），速度方面和 PC 的也有差别（当然这可能并不影响你的使用，毕竟免安装省事）。
 
 ## 界面
 
